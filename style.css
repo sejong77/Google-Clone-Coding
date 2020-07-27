@@ -7,6 +7,7 @@
 	--black-color: #140a00;
 
 	/* Font Size */
+	--font-ultra: 25px;
 	--font-large: 18px;
 	--font-medium: 16px;
 	--font-small: 14px;
@@ -71,3 +72,35 @@ a {
 }
 
 /* Logo And Search */
+.logo {
+	display: flex;
+	justify-content: center;
+	margin: var(--padding);
+}
+
+.logo img {
+	width: 320px;
+	height: 180px;
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search__icon {
+	font-size: var(--font-large);
+	color: var(--grey-dark-color);
+	margin-right: var(--padding);
+}
+
+.search input {
+	margin-right: var(--padding);
+	border-radius: 50px;
+	padding-left: var(--padding);
+	width: 360px;
+	height: 40px;
+	outline: none;
+	border: 2px solid var(--grey-light-color);
+}
