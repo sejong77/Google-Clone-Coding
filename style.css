@@ -111,7 +111,7 @@ a {
 .icons {
 	display: flex;
 	justify-content: center;
-	margin: calc(var(--padding) * 3) calc(var(--padding) * 2);
+	margin-top: calc(var(--padding) * 2);
 }
 
 .icons__link {
@@ -170,4 +170,17 @@ a {
 .icons__title {
 	font-size: var(--font-small);
 	margin-bottom: calc(var(--padding) * 3);
+}
+
+/* Media Query */
+@media screen and (min-width: 587px) {
+	.search input {
+		width: 400px;
+	}
+}
+
+@media screen and (min-width: 841px) {
+	.search input {
+		width: 500px;
+	}
 }
